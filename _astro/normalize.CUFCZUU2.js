@@ -1,0 +1,1 @@
+function e(e){return e.normalize(`NFD`).replace(/[̀-ͯ]/g,``).normalize(`NFC`).toLowerCase().replace(/[\s'’`".,·\-_/()&]+/g,``)}export{e as t};
